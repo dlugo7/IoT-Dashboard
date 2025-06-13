@@ -1,0 +1,322 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+
+# Build outputs
+dist/
+build/
+out/
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+
+# AWS credentials and config
+.aws/
+aws-exports.js
+
+# Serverless directories
+.serverless/
+.dynamodb/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Test results
+test-results/
+coverage/
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Vue-press build output
+.vuepress/dist
+
+# Serverless
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Webpack build files
+webpack-assets.json
+webpack-stats.json
+
+# Rollup build files
+rollup-config.js
+
+# Vite build files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Production build artifacts
+frontend/dist/
+backend/dist/
+backend/lib/*.js
+backend/lib/*.js.map
+backend/lib/*.d.ts
+
+# AWS SAM
+.aws-sam/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Security and secrets
+.env.secret
+.env.private
+
+# Development and deployment artifacts
+deployment-info.json
+cdk-outputs.json
+*.ps1
+*.sh
+bucket-policy.json
+distribution-config.json
+cloudformation-template.yaml
+
+# OS and IDE files
+*.DS_Store
+*.vscode/
+*.idea/
+*.swp
+*.swo
+
+# NPM and package management
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build artifacts and compiled files
+*.tgz
+*.tar.gz
+dist/
+build/
+out/
+secrets.json
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Package manager lockfiles (uncomment if not using them)
+# package-lock.json
+# yarn.lock
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.metadata
+.classpath
+.settings/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Local development files
+local/
+.local/
+
+# Generated documentation
+docs/build/
+docs/dist/
+
+# Storybook build outputs
+storybook-static/
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs* 
