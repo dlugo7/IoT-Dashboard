@@ -4,9 +4,9 @@
 
 **A production-ready, real-time IoT monitoring platform built with modern full-stack technologies**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Available-success?style=for-the-badge)](https://d2uhw7njukhm2.cloudfront.net)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Available-success?style=for-the-badge)](https://d1rdf82bclbd95.cloudfront.net/dashboard)
 [![Security Audit](https://img.shields.io/badge/🔒_Security-Audited-green?style=for-the-badge)](./SECURITY.md)
-[![AWS Deployed](https://img.shields.io/badge/☁️_AWS-Deployed-orange?style=for-the-badge)](https://d2uhw7njukhm2.cloudfront.net)
+[![AWS Deployed](https://img.shields.io/badge/☁️_AWS-Deployed-orange?style=for-the-badge)](https://d1rdf82bclbd95.cloudfront.net/dashboard)
 [![License: MIT](https://img.shields.io/badge/📄_License-MIT-blue?style=for-the-badge)](./LICENSE)
 
 </div>
@@ -194,7 +194,7 @@ This application is deployed on AWS using Infrastructure as Code (CDK):
 - **Database**: DynamoDB with on-demand scaling
 - **Monitoring**: CloudWatch dashboards with custom metrics
 
-**Live Demo**: [https://d2uhw7njukhm2.cloudfront.net](https://d2uhw7njukhm2.cloudfront.net)
+**Live Demo**: [https://d1rdf82bclbd95.cloudfront.net/dashboard](https://d1rdf82bclbd95.cloudfront.net/dashboard)
 
 ### **Environment Configuration**
 ```env
@@ -377,7 +377,7 @@ This project implements enterprise-grade security measures:
 - **GitHub**: [Your GitHub Profile]
 
 ### **Project Information**
-- **Live Demo**: [https://d2uhw7njukhm2.cloudfront.net](https://d2uhw7njukhm2.cloudfront.net)
+- **Live Demo**: [https://d1rdf82bclbd95.cloudfront.net/dashboard](https://d1rdf82bclbd95.cloudfront.net/dashboard)
 - **Documentation**: Available in this repository
 - **License**: MIT License - see [LICENSE](./LICENSE) file
 
