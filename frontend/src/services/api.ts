@@ -33,8 +33,8 @@ class ApiService {
   constructor() {
     // Use mock data if no API endpoint is configured OR if it's the default placeholder OR if it's set to "mock"
     this.useMockData = !API_BASE_URL || 
-                       API_BASE_URL === 'https://api.yourdomain.com' || 
-                       API_BASE_URL.includes('yourdomain.com') ||
+                         API_BASE_URL === 'https://xsscwc1gya.execute-api.us-east-1.amazonaws.com/prod' ||
+  API_BASE_URL.includes('execute-api.us-east-1.amazonaws.com') ||
                        API_BASE_URL === 'mock' ||
                        API_BASE_URL === 'demo' ||
                        API_BASE_URL === 'localhost';
@@ -50,7 +50,7 @@ class ApiService {
     }
 
     this.api = axios.create({
-      baseURL: API_BASE_URL || 'https://api.yourdomain.com',
+      baseURL: API_BASE_URL || 'https://xsscwc1gya.execute-api.us-east-1.amazonaws.com/prod',
       timeout: 10000,
       headers: {
         'Content-Type': 'application/json',

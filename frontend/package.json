@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Smart Home IoT Dashboard - Real-time monitoring interface",
+  "author": {
+    "name": "Daniel Lugo",
+    "email": "dlugo2016@outlook.com",
+    "url": "https://dlugo2016.wixsite.com/website"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlugo7/IoT-Dashboard.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

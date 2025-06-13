@@ -385,14 +385,14 @@ const RecentAlerts: React.FC<RecentAlertsProps> = ({
                         </Box>
                       }
                       secondary={
-                        <Box>
+    <Box>
                           <Typography variant="body2" color="textPrimary" gutterBottom>
                             {alert.message}
                           </Typography>
                           <Typography variant="caption" color="textSecondary">
                             {alert.sensorName} • {formatDistanceToNow(new Date(alert.timestamp), { addSuffix: true })}
-                          </Typography>
-                        </Box>
+      </Typography>
+    </Box>
                       }
                     />
                   </ListItem>

@@ -191,7 +191,7 @@ const SensorStatus: React.FC<SensorStatusProps> = ({
         <CardHeader
           title={
             <Box display="flex" alignItems="center" gap={1}>
-              <Typography variant="h6">Sensor Status</Typography>
+      <Typography variant="h6">Sensor Status</Typography>
               <Badge
                 badgeContent={sensors.filter(s => s.isActive).length}
                 color="success"
@@ -226,8 +226,8 @@ const SensorStatus: React.FC<SensorStatusProps> = ({
             </Typography>
             <Typography variant="body2" color="textSecondary">
               Add sensors to start monitoring your environment
-            </Typography>
-          </Box>
+      </Typography>
+    </Box>
         ) : (
           <>
             <List sx={{ py: 0 }}>

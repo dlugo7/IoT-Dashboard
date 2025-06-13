@@ -163,8 +163,8 @@ git --version   # Version control
 ### **Quick Start**
 ```bash
 # Clone repository
-git clone https://github.com/username/iot-dashboard.git
-cd iot-dashboard
+git clone https://github.com/dlugo7/IoT-Dashboard.git
+cd IoT-Dashboard
 
 # Install dependencies
 npm run install:all
@@ -199,7 +199,7 @@ This application is deployed on AWS using Infrastructure as Code (CDK):
 ### **Environment Configuration**
 ```env
 # Production Environment
-VITE_API_ENDPOINT=https://api.yourdomain.com/prod
+VITE_API_ENDPOINT=https://xsscwc1gya.execute-api.us-east-1.amazonaws.com/prod
 VITE_AWS_REGION=us-east-1
 VITE_ENVIRONMENT=production
 ```
@@ -372,9 +372,11 @@ This project implements enterprise-grade security measures:
 ## 📞 **Contact & Support**
 
 ### **Technical Inquiries**
-- **Email**: developer@yourdomain.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
+- **Email**: dlugo2016@outlook.com
+- **LinkedIn**: [linkedin.com/in/daniellugo201620](https://www.linkedin.com/in/daniellugo201620)
+- **GitHub**: [github.com/dlugo7](https://github.com/dlugo7)
+- **Portfolio**: [dlugo2016.wixsite.com/website](https://dlugo2016.wixsite.com/website)
+- **Phone**: 305-798-1525
 
 ### **Project Information**
 - **Live Demo**: [https://d1rdf82bclbd95.cloudfront.net/dashboard](https://d1rdf82bclbd95.cloudfront.net/dashboard)

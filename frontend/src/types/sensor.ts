@@ -48,7 +48,7 @@ export interface DashboardStats {
 export interface HistoricalData {
   timestamp: string;
   sensors: Array<{
-    sensorId: string;
+  sensorId: string;
     value: number;
     unit: string;
   }>;

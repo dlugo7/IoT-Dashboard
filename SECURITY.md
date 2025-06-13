@@ -142,12 +142,12 @@ VITE_API_ENDPOINT
 # Backend environment variables
 NODE_ENV=production
 LOG_LEVEL=warn
-CORS_ORIGIN=https://yourdomain.com
+CORS_ORIGIN=https://d1rdf82bclbd95.cloudfront.net
 RATE_LIMIT_MAX=100
 RATE_LIMIT_WINDOW_MS=900000
 
 # Frontend environment variables
-VITE_API_ENDPOINT=https://api.yourdomain.com
+VITE_API_ENDPOINT=https://xsscwc1gya.execute-api.us-east-1.amazonaws.com/prod
 VITE_AWS_REGION=us-east-1
 VITE_COGNITO_USER_POOL_ID=us-east-1_xxxxxxxxx
 VITE_COGNITO_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -156,7 +156,7 @@ VITE_COGNITO_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
 ## 📞 Reporting Security Issues
 
 ### Contact
-- **Email**: security@example.com
+- **Email**: dlugo2016@outlook.com
 - **Response Time**: 24-48 hours for initial response
 - **Severity Assessment**: Critical issues addressed within 24 hours
 

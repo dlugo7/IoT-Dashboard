@@ -386,10 +386,10 @@ const Sensors: React.FC = () => {
             <Box textAlign="center" py={4}>
               <Typography variant="h6" color="textSecondary" gutterBottom>
                 No sensors found
-              </Typography>
+      </Typography>
               <Typography variant="body2" color="textSecondary" paragraph>
                 Get started by adding your first sensor
-              </Typography>
+      </Typography>
               <Button
                 variant="contained"
                 startIcon={<AddIcon />}
